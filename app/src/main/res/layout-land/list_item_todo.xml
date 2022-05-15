@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="190sp"
+    android:layout_marginTop="20dp"
+    android:padding="0dp">
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="375dp"-->
+    <!--        android:layout_height="251dp"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:padding="10dp">-->
+
+    <!--    </LinearLayout>-->
+
+    <TextView
+        android:id="@+id/list_item_todo_tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="420dp"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="0"
+        android:gravity="bottom|end"
+        android:text="Due: 2020/05/12"
+        android:textColor="@color/white" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="0dp"
+        app:cardCornerRadius="25dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/list_item_todo_tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autoText="false"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="T I T L E"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/list_item_todo_tv_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="C O N T E N T" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <CheckBox
+        android:id="@+id/list_item_todo_cb_iscomplete"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:buttonTint="@color/white"
+        android:text="DONE"
+        android:textColor="@color/white"
+        android:textColorHighlight="@android:color/primary_text_light" />
+
+</FrameLayout>

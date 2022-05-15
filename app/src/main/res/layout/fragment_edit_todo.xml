@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    android:orientation="vertical"
+    tools:context=".EditTodoFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="311dp"
+        android:layout_height="592dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/edited_priority"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/edited_normal_priority"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:text="@string/edit_low"
+                        android:textColor="@color/white" />
+
+                    <RadioButton
+                        android:id="@+id/edited_high_priority"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:text="@string/edit_medium"
+                        android:textColor="@color/white" />
+
+                    <RadioButton
+                        android:id="@+id/edited_critical_priority"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:text="@string/edit_high"
+                        android:textColor="@color/white" />
+
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/edited_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/edit_text_border"
+                    android:ems="10"
+                    android:hint="@string/edit_title"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+
+                <EditText
+                    android:id="@+id/edited_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:height="150dp"
+                    android:background="@drawable/edit_text_border"
+                    android:ems="10"
+                    android:hint="@string/edit_description"
+                    android:inputType="textMultiLine|textPersonName"
+                    android:lines="5"
+                    android:maxLines="5"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:scrollbars="vertical" />
+
+                <EditText
+                    android:id="@+id/edited_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/edit_text_border"
+                    android:ems="10"
+                    android:hint="@string/edit_date"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+
+                <CheckBox
+                    android:id="@+id/edited_completion_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:buttonTint="@color/white"
+                    android:text="Completion status"
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="121dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/edit_fragment_btn_save"
+                        android:layout_width="158dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#2196F3"
+                        android:text="@string/edit_save"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/edit_fragment_btn_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="61dp"
+                        android:backgroundTint="#2196F3"
+                        android:text="@string/cancel"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
