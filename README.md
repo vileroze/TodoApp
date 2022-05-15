@@ -18,16 +18,16 @@
   <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/signupLand.jpg" width="60%" />
 </p>
 
-### MAIN SCREEN
-<p float="left">
-  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/signup.jpg" width="30%" />
-  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/signupLand.jpg" width="60%" />
-</p>
-
 ### DISPLAY TODO SCREEN
 <p float="left">
   <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/displayTodo.jpg" width="30%" />
   <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/todoListLand.jpg" width="60%" />
+</p>
+
+### MENU ITEMS
+<p float="left">
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/menu.jpg" width="30%" />
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/menuLand.jpg" width="60%" />
 </p>
 
 ### ADD TODO SCREEN
