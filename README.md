@@ -1,3 +1,49 @@
-#DMA final assignment
+# DMA final assignment
 
-##GIFS AND SCREENSHOTS
+## GIFS AND SCREENSHOTS
+### SPLASH SCREEN
+ <p float="left">
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/splashScreen.jpg" width="30%" />
+</p>
+
+### LOGIN SCREEN
+<p float="left">
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/login.jpg" width="30%" />
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/loginLand.jpg" width="60%" />
+</p>
+
+### SIGNUP SCREEN
+<p float="left">
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/signup.jpg" width="30%" />
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/signupLand.jpg" width="60%" />
+</p>
+
+### MAIN SCREEN
+<p float="left">
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/signup.jpg" width="30%" />
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/signupLand.jpg" width="60%" />
+</p>
+
+### DISPLAY TODO SCREEN
+<p float="left">
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/displayTodo.jpg" width="30%" />
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/todoListLand.jpg" width="60%" />
+</p>
+
+### ADD TODO SCREEN
+<p float="left">
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/addTodo.jpg" width="30%" />
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/addTodoLand.jpg" width="60%" />
+</p>
+
+### UPDATE TODO SCREEN
+<p float="left">
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/updateTodo.jpg" width="30%" />
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/editTodoLand.jpg" width="60%" />
+</p>
+
+### RESET PASSWORD SCREEN
+<p float="left">
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/resetPassword.jpg" width="30%" />
+  <img src="https://github.com/vileroze/TodoApp/blob/master/screenShots/resetPasswordLand.jpg" width="60%" />
+</p>
