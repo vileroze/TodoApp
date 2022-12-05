@@ -1,4 +1,4 @@
-#ABOUT
+# ABOUT
 A simple To-do app which:
 * stores information locally with the help of Room database
 * features sign-in and sign-up features
