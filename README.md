@@ -1,5 +1,11 @@
-# GIFS AND SCREENSHOTS
+#ABOUT
+A simple To-do app which:
+* stores information locally with the help of Room database
+* features sign-in and sign-up features
+* includes swipe gestures for certain funcitonality such as deleting items and toggling between different screens
 
+
+# GIFS AND SCREENSHOTS
 ## SCREENSHOTS
 ### SPLASH SCREEN
  <p float="left">
